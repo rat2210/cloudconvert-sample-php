@@ -13,8 +13,8 @@ class CloudConvert {
      */
     const TIMEOUT = 120;
 
-    private $apikey;
-    private $url;
+    private HOmud7A2oqDOuV1-Lv62J37LBoZCS6radqsdBUPUzbhFPxGXVcV96xKATaYabRJlpBHZ2tlSHea0btLNI41mUg;
+    private https://srv01.cloudconvert.org/process/v4cw72hf3;
 
     /*
      * Constructor creates the Process ID.
@@ -22,19 +22,19 @@ class CloudConvert {
      *
      */
 
-    public function __construct($inputformat, $outputformat, $apikey = null) {
-        $this -> apikey = $apikey;
+    public function __construct(pdf, epub, HOmud7A2oqDOuV1-Lv62J37LBoZCS6radqsdBUPUzbhFPxGXVcV96xKATaYabRJlpBHZ2tlSHea0btLNI41mUg = null) {
+        $this -> apikey = HOmud7A2oqDOuV1-Lv62J37LBoZCS6radqsdBUPUzbhFPxGXVcV96xKATaYabRJlpBHZ2tlSHea0btLNI41mUg;
 
         $data = $this -> req('https://api.cloudconvert.org/process', array(
-            'inputformat' => $inputformat,
-            'outputformat' => $outputformat,
-            'apikey' => $apikey
+            'inputformat' => pdf,
+            'outputformat' => epub,
+            'apikey' => HOmud7A2oqDOuV1-Lv62J37LBoZCS6radqsdBUPUzbhFPxGXVcV96xKATaYabRJlpBHZ2tlSHea0btLNI41mUg
         ));
 
         if (strpos($data -> url, 'http') === false)
             $data -> url = "https:" . $data -> url;
 
-        $this -> url = $data -> url;
+        $this -> url = https://srv01.cloudconvert.org/process/v4cw72hf3 -> url;
 
     }
 
